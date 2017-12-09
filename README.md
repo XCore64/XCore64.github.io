@@ -1,5 +1,7 @@
 # XCore64.github.io
 
-This is the source files to my website.
+This is the source files to my personal website.
 
-Powered with Namecheap.com (Domain) & GitHub Pages (Data)
+Powered by Namecheap.com (Domain) & GitHub Pages (Data)
+
+Written with the use of Bootstrap
