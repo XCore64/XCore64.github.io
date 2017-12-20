@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Unit Conversion Table</title>
+		<script type="text/javascript">
+		function convertUnits(){
+					if(form.ft.value == ""){
+					alert("Please enter a value.");
+					return false;
+					}
+					if(form.yd.value ==""){
+					alert("Please enter a value.");
+					return false;
+					}
+					if(form.m.value == ""){
+					alert("Please enter a value.");
+					return false;
+					}
+					if(form.mi.value == ""){
+					alert("Please enter a value.");
+					return false;
+					}
+					else{
+					
+					}
+		}
+		</script>
+	</head>
+	<body>
+		<form name="conversion">
+		Feet: <input type="text" name="ft" id="ft"><br>
+		Yards: <input type="text" name="yd" id="yd"><br>
+		Meters: <input type="text" name="m" id="m"><br>
+		Miles: <input type="text" name="mi" id="mi"><br/>
+		<button onclick="convertUnits()">Convert</button>
+		<input type="reset" />
+		</form>
+	</body>
+</html>

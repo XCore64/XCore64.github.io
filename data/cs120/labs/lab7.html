@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Let's run scripts people!</title>
+	</head>
+	<body>
+		<script>
+		var firstName = prompt("What's your first name?");
+		var lastName = prompt("What's your last name?");
+		var isFirstName = confirm("Do you want to be called by your first name?");
+		if(isFirstName == true){
+			document.write("<h1>Hello "+firstName);
+		}
+		else{
+			document.write("<h1>Hello "+lastName);
+		}
+		var temp = prompt("Enter a number to convert");
+		var tempchoice = prompt("Do you want your number to be converted in Celsius or Fahrenheit?");
+		if(tempchoice == "F"){
+			var convert = (temp - 32) * 5/9;
+			document.write(temp + " Fahrenheit is <br> " + convert);
+		}
+		else{
+			var convert = temp * 9/5 + 32;
+			document.write (temp + " Celsius is <br> " + convert);
+		}
+		</script>
+	</body>	
+</html>

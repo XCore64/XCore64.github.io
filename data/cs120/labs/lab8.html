@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Michael Jackson!</title>
+		<link rel = "stylesheet" href = "../../../styles/cs120_styles/lab6_style1.css" />
+	</head>
+	<header>
+		<h1>Michael Jackson</h1>
+	</header>
+	<body id="colorground">
+	<div id="paragraph">
+		<p id="para1"><img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Michael_Jackson_in_1988.jpg" />Michael Joseph Jackson[1][2] (August 29, 1958 – June 25, 2009) was an American singer, songwriter, record producer, dancer, and actor. Called the King of Pop,[3][4][5] his contributions to music and dance, along with his publicized personal life, made him a global figure in popular culture for over four decades.</p>
+		<p id="para2">The eighth child of the Jackson family, he debuted on the professional music scene along with his elder brothers Jackie, Tito, Jermaine, and Marlon as a member of the Jackson 5 in 1964, and began his solo career in 1971. In the early 1980s, Jackson became a dominant figure in popular music. The music videos for his songs, including those of "Beat It", "Billie Jean", and "Thriller" from his 1982 album Thriller, were credited with breaking down racial barriers and with transforming the medium into an art form and promotional tool. The popularity of these videos helped to bring the then-relatively-new television channel MTV to fame. His 1987 album Bad spawned the U.S. Billboard Hot 100 number-one singles "I Just Can't Stop Loving You", "Bad", "The Way You Make Me Feel", "Man in the Mirror", and "Dirty Diana", becoming the first album to have five number-one singles on the Billboard Hot 100. With videos such as "Black or White" and "Scream", he continued to innovate the medium throughout the 1990s, as well as forging a reputation as a touring solo artist. Through stage and video performances, Jackson popularized a number of complicated dance techniques, such as the robot and the moonwalk, to which he gave the name. His distinctive sound and style has influenced numerous artists of various music genres.</p>
+		<p id="para3">Thriller is the best-selling album of all time, with estimated sales of 65 million copies worldwide. His other albums, including Off the Wall (1979), Bad (1987), Dangerous (1991), and HIStory (1995), also rank among the world's best-selling albums. Jackson is one of the few artists to have been inducted into the Rock and Roll Hall of Fame twice. He was also inducted into the Songwriters Hall of Fame and the Dance Hall of Fame as the first and only dancer from pop and rock music. His other achievements include multiple Guinness World Records, 13 Grammy Awards, the Grammy Legend Award, the Grammy Lifetime Achievement Award, 26 American Music Awards—more than any other artist—including the "Artist of the Century" and "Artist of the 1980s", 13 number-one singles in the United States during his solo career,—more than any other male artist in the Hot 100 era—and estimated sales of over 400 million records worldwide.[Note 1] Jackson has won hundreds of awards, making him the most awarded recording artist in the history of popular music.[6] He became the first artist in history to have a top ten single in the Billboard Hot 100 in five different decades when "Love Never Felt So Good" reached number nine on May 21, 2014.[7] Jackson traveled the world attending events honoring his humanitarianism, and, in 2000, the Guinness World Records recognized him for supporting 39 charities, more than any other entertainer.</p>
+		<a href="https://en.wikipedia.org/wiki/Michael_Jackson">Link</a>
+	</div>
+	<button type="button" onclick="size()">Size</button>
+	<button type="button" onclick="bgstyle()">Change Background Style</button>
+	<script>
+	function size() {
+		var sizevar = window.prompt("Select 's' for Small, 'm' for Medium, and 'l' for Large");
+		if (sizevar == "s"){
+			document.getElementById("paragraph").style.fontSize ="75%";
+			}
+		if (sizevar == "m"){
+			document.getElementById("paragraph").style.fontSize ="100%";
+			}	
+		if (sizevar == "l"){
+			document.getElementById("paragraph").style.fontSize ="150%";
+			}	
+	}
+	function bgstyle() {
+		if (document.getElementById("colorground").style.backgroundColor != "blue");
+			document.getElementById("colorground").style.backgroundColor = "yellow";
+		}	
+	</script>
+	</body>
+</html>

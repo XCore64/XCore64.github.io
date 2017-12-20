@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Order Pizza from Me!</title>
+		<script type="text/javascript">
+			function validationForm(form){
+				//name validationForm
+				if(form.name.value == ""){
+				alert("Please enter your name.");
+				form.name.focus();
+				return false;
+				}
+				//address validationForm
+				if(form.address.value ==""){
+				alert("Please enter your address.");
+				form.name.focus();
+				return false;
+				}
+				//e-mail validationForm
+				if(form.email.value == ""){
+				alert("Please enter your e-mail correctly.");
+				return false;
+				}
+				//e-mail char validationForm
+				var at = email.indexOf("@");
+				var dot = email.lastIndexOf(".");
+				if(at<1 || dot<at+2 || dot+2>=email.length){
+				alert("Please entry your e-mail in a valid format.");
+				return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h2>Pizza'z Order Form</h2>
+		<strong>Customer Info:</strong>
+		<form name = "pizzacustinfo" onsubmit="return validationForm(this);">
+			Name:
+			<input type = "text" name = "name">
+			Address:
+			<input type = "text" name = "address" placeholder = "Valid Address Required">
+			E-mail Address:
+			<input type = "text" name = "email" placeholder = "example@example.com" ><br>
+		<strong>Choose Pizza Size:</strong><br>
+			<input type = "radio" name="size" value="large" id="large"> Large<br>
+			<input type = "radio" name="size" value="medium" id="med"> Medium<br>
+			<input type = "radio" name="size" value="small" id="small"> Small<br>
+		<strong>Choose Pizza Type:</strong><br>
+			<select>
+				<option value="reg">Regular</option>
+				<option value="deep">Deep Dish</option>
+			</select>
+			<br>
+		<strong>Choose Pizza Toppings:</strong><br>
+			<input type="checkbox" name="toppings" value="chicken" id="chicken">Chicken
+			<input type="checkbox" name="toppings" value="mushrooms" id="mushrooms">Mushrooms
+			<input type="checkbox" name="toppings" value="tbacon" id="tbacon">Turkey Bacon
+			<input type="checkbox" name="toppings" value="bacon" id="bacon"> Regular Bacon
+			<input type="checkbox" name="toppings" value="sausages" id="sausages">Sausage
+			<input type="checkbox" name="toppings" value="peppers" id="peppers">Bell Peppers
+			<input type="checkbox" name="toppings" value="cheese" id="cheese">Cheese
+			<input type="checkbox" name="toppings" value="vegancheeze" id="vegancheeze">Vegan Cheeze
+			<input type="checkbox" name="toppings" value="x-tomato" id="x-tomato">Extra Tomato Sauce
+			<input type="checkbox" name="toppings" value="pizzaonapizza" id="pizzaonapizza">Pizza on a Pizza<br/>
+		<input type="submit" value="Order">
+		</form>
+		<p id="pizzaorderconfirm"></p>
+	</body>
+</html>
