@@ -8,7 +8,7 @@ Main site
 <p>[Update 4/2/2019] Updated to Bootstrap 4.3.1.</p>
 <p>[Update 12/16/2019] Major update and fixes.</p>
 <p>[Update 3/13/2020] Updated frontpage image</p>
-<p>[Update 11/24/2020] Added support for Internet Exploter 8 and 9 users</p>
+<p>[Update 11/24/2020] Added compatiblity support for Internet Explorer 8 and 9 users. (Currently in testing)</p>
 
 <b>Issues</b>
 
