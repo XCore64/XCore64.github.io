@@ -8,9 +8,9 @@ Main site
 <p>[Update 4/2/2019] Updated to Bootstrap 4.3.1.</p>
 <p>[Update 12/16/2019] Major update and fixes.</p>
 <p>[Update 3/13/2020] Updated frontpage image</p>
-<p>[Update 11/24/2020] Added compatiblity support for Internet Explorer 8 and 9 users. (Currently in testing)</p>
+<p><s>[Update 11/24/2020] Added compatiblity support for Internet Explorer 8 and 9 users.</s></p>
 
 <b>Issues</b>
 
 * There is an issue with iOS devices in regards opening items in the dropdown menu.
-* For better viewing experience for mobile phones, please open any web browser if you are using Android WebView or applications that use web browsing alongside with mobile applications.
+* For better viewing experience for any mobile phones, please open any web browser if you are using Android WebView or applications that use web browsing alongside with mobile applications.
